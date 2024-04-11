@@ -1,0 +1,27 @@
+Nos registramos en github con un correo y contraseña, ponemomos un nickname
+--> Nickname:
+	Yoryo0072
+--> Correo Electronico
+	giorsebas0772.gslp@outlook.com
+
+
+Configuramos un token de 60 dias para github
+--> Nombre Token:
+	Yoryo0077
+
+Crear backup del Token en KeepassXC
+
+Instalar Git en MiniOS
+--> sudo apt install git
+
+Configurar el Usuario y el Correo global
+--> git config --global user.name "Yoryo0072"
+--> git config --global user.email "giorsebas0772.gslp@outlook.com"
+
+Inicialzar el Repositorio Github
+git init
+git add PrimerosPasosGithub.txt
+git commit -m "Primer commit en el repositorio"
+git branch -M main
+git remote add origin https://github.com/Yoryo0072/TecWeb2-Doc.git
+git push -u origin main
