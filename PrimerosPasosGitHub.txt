@@ -25,3 +25,6 @@ git commit -m "Primer commit en el repositorio"
 git branch -M main
 git remote add origin https://github.com/Yoryo0072/TecWeb2-Doc.git
 git push -u origin main
+
+Cambio de Archivo
+--> git commit -m "Segundo cambio en el archivo"
