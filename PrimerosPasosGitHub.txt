@@ -27,4 +27,11 @@ git remote add origin https://github.com/Yoryo0072/TecWeb2-Doc.git
 git push -u origin main
 
 Cambio de Archivo
+--> git add PrimerosPasosGithub.txt
 --> git commit -m "Segundo cambio en el archivo"
+--> git push -u origin main
+
+Tercer Cambio
+--> git add PrimerosPasosGithub.txt
+--> git commit -m "Tercer cambio en el archivo"
+--> git push -u origin main
