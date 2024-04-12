@@ -1,0 +1,50 @@
+Instalamos Plugin de Docker:
+--> sudo apt install docker-compose-Plugin
+
+Creamos la carpeta:
+--> ~/Docker/Nginx
+
+Creamos el fichero:
+--> ~/Docker/Nginx/docker-compose.yml
+
+Agregamos contenido al fichero docker-compose.yml:
+services:
+    web:
+        image: nginx
+        volumes:
+        - ./code:/usr/share/nginx/html
+        ports:
+        - "8080:80"
+        environment:
+        #   - NGINX_HOST=foobar.com
+        - NGINX_PORT=80
+
+Ejecutamos el siguiente comando:
+--> docker compose up -d
+
+Revisamos que todo este bien con el siguiente comando:
+--> docker compose ps
+
+Creamos un archivo html en la carpeta ~~/Docker/Nginx/code/index.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+</body>
+</html>
+
+Nos vamos al navegador y colocamos http://localhost:8080
+
+Para eliminar el contenedor:
+--> docker compose down
+
+Clonamos un repositorio de github en la carpeta ~/Docker/Nginx/code
+--> sudo git clone https://github.com/bedimcode/portfolip-responsive-complete.git
+
+Levantamos el sevidor con la pagina clonada:
+http://localhost:8080/portfolip-responsive-complete
