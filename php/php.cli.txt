@@ -1,0 +1,12 @@
+Instalaremos php y php-cli para poder ejecutar codigo php en terminal
+--> sudo apt install php php-cli
+
+Empezaremos a practicar el lunguaje php
+Libro:
+--> Introduccion a php - Juan Sanchez
+https://josejuansanchez.org/iaw/practica-php/index.pdf
+
+
+Documentacion PHP:
+--> Pagina Web de PHP
+https://www.php.net/manual/es/index.php
