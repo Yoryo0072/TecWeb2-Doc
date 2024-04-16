@@ -47,4 +47,7 @@ Clonamos un repositorio de github en la carpeta ~/Docker/Nginx/code
 --> sudo git clone https://github.com/bedimcode/portfolip-responsive-complete.git
 
 Levantamos el sevidor con la pagina clonada:
-http://localhost:8080/portfolip-responsive-complete
+http://localhost:8080/portfolio
+
+Cambiar permison para usuario
+--> sudo chmod -R 770 {Carpeta o Archivo}
