@@ -50,4 +50,7 @@ Levantamos el sevidor con la pagina clonada:
 http://localhost:8080/portfolio
 
 Cambiar permison para usuario
---> sudo chmod -R 770 {Carpeta o Archivo}
+--> sudo chmod -R 777 {Carpeta o Archivo}
+
+Volver a los permisos de root
+--> sudo chown -R root:root {Caperta o Archivo}
